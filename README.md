@@ -1,8 +1,8 @@
 ### Hi there 👋
 :)
-<!--
-**mablue/mablue** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+<!-- **mablue/mablue** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ -->
 Here are some ideas to get you started:
 
 - 🔭 I’m currently freelancer
@@ -13,4 +13,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: mablue92 gmail.com
 - 😄 Pronouns: he/him/his/himself
 - ⚡ Fun fact: I'm a random thing in random place and time!
--->
