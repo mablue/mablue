@@ -12,4 +12,4 @@ Here are some ideas to get you started:
 - 💬 Ask me about Python programming and Genetic Algorithm
 - 📫 How to reach me: mablue92 gmail.com
 - 😄 Pronouns: he/him/his/himself
-- ⚡ Fun fact: I'm a random thing in random place and time!
+- ⚡ Fun fact: I'm a random thing in a random place and a random time!
