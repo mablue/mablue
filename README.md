@@ -12,6 +12,6 @@ Here are some lines to know me more:
 - 👯 I’m looking to collaborate on Python projects
 - 🤔 I’m looking for help with oss projects
 - 💬 Ask me about Python programming and Genetic Algorithm
-- 📫 How to reach me: mablue92 gmail.com
+- 📫 How to reach me: mablue92📎gmail.com
 - 😄 Pronouns: he/him/his/himself
 - ⚡ Fun fact: I'm a random thing in a random place and a random time!
