@@ -21,28 +21,30 @@ Introduction to Channels Related to Our Activities
 
 Here's a breakdown of the channels and their purposes:
 
-Text-to-Speech Channels:
+* Text-to-Speech Channels:
     https://ttsfarsi.t.me: Persian text-to-speech
     https://ttsenglish.t.me: English text-to-speech
-Speech-to-Text Channel:
+* Speech-to-Text Channel:
     https://sttfarsi.t.me: Persian speech-to-text
-Image and PDF to Text Channel:
+* Image and PDF to Text Channel:
     https://ocrfarsi.t.me: Persian image and PDF to text
-Open-Source Screen Reader Development Channel:
+* Open-Source Screen Reader Development Channel:
     https://msrfarsi.t.me: Persian open-source screen reader development
-Interesting Blog Posts Channel:
+* Interesting Blog Posts Channel:
     https://jaleblog.t.me: A channel for sharing interesting blog posts
-MasoudSoft Audio Podcast Channel:
+* MasoudSoft Audio Podcast Channel:
     https://masouds0ft.t.me: Audio podcast by MasoudSoft
-"Eye Be with Me" Group:
+* "Be My Eyes" Group:
     https://t.me/+48S1fRi33fU2NGVk: A group for a specific purpose (more context needed for a precise translation)
-Stable Baselines Tools Channel:
+* Stable Baselines Tools Channel:
     https://stablebaselines.t.me: Channel related to the Stable Baselines reinforcement learning library
-Masoud's Gallery:
+* Mosavet Gallery:
     https://m0savet.t.me: A channel showcasing Masoud's gallery or collection
-Iranian Self-Driving Car Channel:
+* Iranian Self-Driving Car Channel:
     https://t.me/+5vk7AifNWJE2NGVk: A channel dedicated to Iranian self-driving cars
-
+* https://www.mosavet.wordpress.com
+* https://masoudsoft.ir
+  
 Complete List of MasoudSoft Channels
 
 Click on this link to join all MasoudSoft channels with a single click: https://t.me/addlist/KYBnlh_rCCljNTVk
