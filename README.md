@@ -29,7 +29,7 @@ Here's a breakdown of the channels and their purposes:
 * Image and PDF to Text Channel:
     - https://ocrfarsi.t.me: Persian image and PDF to text
 * Open-Source Screen Reader Development Channel:
-    https://msrfarsi.t.me: Persian open-source screen reader development
+    - https://msrfarsi.t.me: Persian open-source screen reader development
 * Interesting Blog Posts Channel:
     - https://jaleblog.t.me: A channel for sharing interesting blog posts
 * MasoudSoft Audio Podcast Channel:
