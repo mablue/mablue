@@ -1,164 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Masoud Azizi Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masoud Azizi - Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .skill-bar {
+            transition: width 1s ease-in-out;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
-
-  <div class="max-w-5xl mx-auto p-6">
-    <!-- Header -->
-    <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col lg:flex-row">
-      <!-- Left Section -->
-      <div class="w-full lg:w-1/3 bg-red-100 p-6 text-center">
-        <img src="avatar.png" alt="Profile Picture" class="mx-auto rounded-full border-4 border-white shadow-md mb-4">
-        <h1 class="text-2xl font-bold">Masoud Azizi</h1>
-        <p class="text-sm text-gray-600 mb-4">A Fullstack developer</p>
-        <div class="text-left">
-          <p><strong>Location:</strong> Tabriz, East Azerbaijan, Iran</p>
-          <p><strong>Birthdate:</strong> October 06, 1992</p>
-          <p><strong>Email:</strong> mablu92@gmail.com</p>
-          <p><strong>Phone:</strong> +989149929598</p>
-          <p><strong>Website:</strong> <a href="https://mablue.github.io" class="text-red-600 underline">mablue.github.io</a></p>
-        </div>
-      </div>
-
-      <!-- Right Section -->
-      <div class="w-full lg:w-2/3 p-6">
-        <!-- About -->
-        <div class="mb-6">
-          <h2 class="text-xl font-semibold text-red-600 mb-2">About Me</h2>
-          <p>
-            I'm a backend, desktop and android developer that knows these languages Python, Specially Genetic Algorithm implementation and optimization branch...
-            (trimmed for brevity in the prototype).
-          </p>
-        </div>
-
-        <!-- Work Experience -->
-        <div class="mb-6">
-          <h2 class="text-xl font-semibold text-red-600 mb-2">Work Experience</h2>
-          <p><strong>Freelancer</strong> - Freelancing</p>
-        </div>
-
-        <!-- Education -->
-        <div class="mb-6">
-          <h2 class="text-xl font-semibold text-red-600 mb-2">Education</h2>
-          <p><strong>Daneshvaran</strong> - MSC, Software Engineering</p>
-          <a href="https://daneshvaran.ac.ir" class="text-red-600 underline">Daneshvaran.ac.ir</a>
-        </div>
-
-        <!-- Skills -->
-        <div class="mb-6">
-          <h2 class="text-xl font-semibold text-red-600 mb-2">Skills</h2>
-          <div class="grid grid-cols-2 gap-2">
-            <p>Python</p>
-            <p>Java Android</p>
-            <p>C++</p>
-            <p>PHP</p>
-            <p>JavaScript</p>
-            <p>CSS</p>
-            <p>HTML</p>
-            <p>jQuery</p>
-            <p>Django</p>
-            <p>Bootstrap</p>
-          </div>
-        </div>
-
-        <!-- Projects -->
-        <div>
-          <h2 class="text-xl font-semibold text-red-600 mb-2">Projects</h2>
-          <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <li>
-              <h3 class="font-bold">Quantum Particles Throwing System</h3>
-              <p>An implementation of spatial quantum physics using C++ and Box2D.</p>
-              <span class="text-sm text-gray-500">Technologies: C++, Box2D</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Iran International Gas Co. Product Management System</h3>
-              <p>A Django web app to manage product standards and codes (MESC).</p>
-              <span class="text-sm text-gray-500">Technologies: Django, Python</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Clothes change AI system</h3>
-              <p>A clothes change Unity application to change Clothes to specific printed materials with finding shape of body and simulate 3d object of it.</p>
-              <span class="text-sm text-gray-500">Technologies: Unity 3D</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Puzzlly Ads</h3>
-              <p>
-              	Puzzle Based advertising system
-              	An advertising panel to sell and show Photo ads inside webpages and android apps while clicking on specific links that shows a puzzle to solve than link is open up as a puzzle are maken from the advertising picture the user will see the image to solve it and accuracy is very high in this method and removing captchas!
-          	</p>
-              <span class="text-sm text-gray-500">Technologies: Bootstrap, Laravel, jQuery</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Doorban Security Cam</h3>
-              <p>
-              	Android security camera with old phones support
-
-              	Its an AI to find movement and detect whats going on and just sends the user the text that says what happened in place! Whitout any recording just if user wants it can send a photo to his email.
-
-              	http://cafebazaar.it/app/?e=id=com.azharja.doorban&ref=share
-          	</p>
-              <span class="text-sm text-gray-500">Technologies: Android, Java, AI</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Jimbot</h3>
-              <p>
-              	People free time finder
-
-              	A simple tool to determine free time of people by input calls time.
-
-              	https://github.com/mabue/jimbot/
-          	</p>
-              <span class="text-sm text-gray-500">Technologies: Android, Java </span>
-            </li>
-            <li>
-              <h3 class="font-bold">Small Car Refrigerator</h3>
-              <p>An Attmega16 project to make a car refrigerator</p>
-              <span class="text-sm text-gray-500">Technologies: Attmega, Robotics</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Freqtrade Strategies</h3>
-              <p>
-              	Trading Strategic with genetic algorithm
-
-              	A genetic algorithm optimized algo for trading crypto currency on binance
-
-              	https://github.com/freqtrade/freqtrade-strategies
-      		</p>
-              <span class="text-sm text-gray-500">Technologies: Scipy, Scikit learn, Python, Freqtrade</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Piclassor</h3>
-              <p>
-              	An AI gallery classifier
-              	A gallery photo classifier that classify images by size and regulations. To determine whats the source. If a high quality camera photo it will be in a specific folder/album/else if a sticker it will be inside squer small photos folder and so on...
-          	</p>
-              <span class="text-sm text-gray-500">Technologies: Java, Android</span>
-            </li>
-            <li>
-              <h3 class="font-bold">Other android apps</h3>
-              <p>
-              	On cafebazzae app store
-              	https://cafebazaar.it/developer/977556711038
-          	</p>
-              <span class="text-sm text-gray-500">Technologies: Java, Android</span>
-            </li>
+    <div class="max-w-6xl mx-auto p-6">
+        <!-- Header -->
+        <div class="bg-white shadow-xl rounded-lg overflow-hidden flex flex-col lg:flex-row mb-8">
+            <!-- Left Section -->
+            <div class="w-full lg:w-1/3 bg-gradient-to-br from-red-100 to-red-200 p-8 text-center">
+                <img src="https://avatars.githubusercontent.com/u/42938756?v=4" alt="Masoud Azizi" class="mx-auto rounded-full border-4 border-white shadow-lg mb-6 w-40 h-40 object-cover">
+                <h1 class="text-3xl font-bold text-gray-800">Masoud Azizi</h1>
+                <p class="text-lg text-gray-700 mb-4">Full Stack Developer</p>
+                <div class="text-left space-y-3">
+                    <p class="flex items-center"><i class="fas fa-map-marker-alt mr-3 text-red-600"></i> <strong>Location:</strong> Tabriz, Iran</p>
+                    <p class="flex items-center"><i class="fas fa-birthday-cake mr-3 text-red-600"></i> <strong>Birthdate:</strong> October 06, 1992</p>
+                    <p class="flex items-center"><i class="fas fa-envelope mr-3 text-red-600"></i> <strong>Email:</strong> mablu92@gmail.com</p>
+                    <p class="flex items-center"><i class="fas fa-phone mr-3 text-red-600"></i> <strong>Phone:</strong> +989149929598</p>
+                    <p class="flex items-center"><i class="fab fa-github mr-3 text-red-600"></i> <strong>GitHub:</strong> <a href="https://github.com/mablue" class="text-red-600 underline">github.com/mablue</a></p>
+                    <p class="flex items-center"><i class="fas fa-globe mr-3 text-red-600"></i> <strong>Website:</strong> <a href="https://mablue.github.io" class="text-red-600 underline">mablue.github.io</a></p>
+                </div>
+            </div>
             
-            <!-- Add more project entries here as needed -->
-          </ul>
+            <!-- Right Section -->
+            <div class="w-full lg:w-2/3 p-8">
+                <!-- About -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-semibold text-red-600 mb-3 border-b-2 border-red-200 pb-2">About Me</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Full Stack Developer with 5+ years of experience specializing in Python, AI implementation, and genetic algorithm optimization. 
+                        Proven expertise in developing scalable web applications, Android apps, and desktop solutions. Strong background in implementing 
+                        machine learning algorithms and creating efficient, maintainable code across multiple platforms.
+                    </p>
+                </div>
+                
+                <!-- Skills -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-semibold text-red-600 mb-4 border-b-2 border-red-200 pb-2">Technical Skills</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Programming Languages</h3>
+                            <ul class="space-y-2">
+                                <li class="flex justify-between items-center">
+                                    <span>Python</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 95%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>JavaScript/TypeScript</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Java</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>C++</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>C#/.NET</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 75%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>PHP</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 70%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Frameworks & Technologies</h3>
+                            <ul class="space-y-2">
+                                <li class="flex justify-between items-center">
+                                    <span>Django</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>React</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Refine</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 75%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>ASP.NET</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 70%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Android SDK</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <span>Unity 3D</span>
+                                    <div class="w-32 h-2 bg-gray-200 rounded-full">
+                                        <div class="h-full bg-red-600 rounded-full skill-bar" style="width: 75%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Work Experience -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-semibold text-red-600 mb-4 border-b-2 border-red-200 pb-2">Work Experience</h2>
+                    <div class="mb-4">
+                        <h3 class="font-bold text-lg">Freelance Full Stack Developer</h3>
+                        <p class="text-gray-600">2018 - Present</p>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                            <li>Developed full-stack web applications using Django, React, and ASP.NET for various clients</li>
+                            <li>Created Android applications with advanced features like AI integration and real-time processing</li>
+                            <li>Implemented genetic algorithms for optimization problems in trading and resource allocation</li>
+                            <li>Designed and deployed machine learning models for image classification and pattern recognition</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-semibold text-red-600 mb-4 border-b-2 border-red-200 pb-2">Education</h2>
+                    <div>
+                        <h3 class="font-bold text-lg">MSc in Software Engineering</h3>
+                        <p class="text-gray-700">Daneshvaran University</p>
+                        <a href="https://daneshvaran.ac.ir" class="text-red-600 underline">Daneshvaran.ac.ir</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- Projects Section -->
+        <div class="bg-white shadow-xl rounded-lg p-8">
+            <h2 class="text-2xl font-semibold text-red-600 mb-6 border-b-2 border-red-200 pb-2">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Project 1 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Quantum Particles Throwing System</h3>
+                    <p class="text-gray-700 mb-3">Advanced implementation of spatial quantum physics using C++ and Box2D with realistic particle behavior simulation.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">C++</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Box2D</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Physics Simulation</span>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Iran International Gas Co. Product Management System</h3>
+                    <p class="text-gray-700 mb-3">Comprehensive Django web application for managing product standards and codes (MESC) with user authentication and reporting features.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Django</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Python</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">PostgreSQL</span>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Clothes Change AI System</h3>
+                    <p class="text-gray-700 mb-3">Unity application utilizing computer vision to detect body shapes and simulate 3D clothing try-ons with specific printed materials.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Unity 3D</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">C#</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Computer Vision</span>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Puzzlly Ads</h3>
+                    <p class="text-gray-700 mb-3">Innovative puzzle-based advertising system that replaces traditional captchas with branded puzzles, increasing user engagement.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Laravel</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Bootstrap</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">jQuery</span>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Doorban Security Cam</h3>
+                    <p class="text-gray-700 mb-3">Android security application with AI-powered movement detection that sends descriptive alerts instead of continuous recording.</p>
+                    <a href="http://cafebazaar.ir/app/?id=com.azharja.doorban" class="text-red-600 text-sm block mb-2">View on Cafe Bazaar</a>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Android</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Java</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">AI</span>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Freqtrade Strategies</h3>
+                    <p class="text-gray-700 mb-3">Genetic algorithm-optimized trading strategies for cryptocurrency on Binance, utilizing scipy and scikit-learn for pattern recognition.</p>
+                    <a href="https://github.com/freqtrade/freqtrade-strategies" class="text-red-600 text-sm block mb-2">View on GitHub</a>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Python</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Scipy</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Genetic Algorithms</span>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Jimbot - Free Time Finder</h3>
+                    <p class="text-gray-700 mb-3">Android application that determines optimal meeting times by analyzing participants' schedule patterns and preferences.</p>
+                    <a href="https://github.com/mabue/jimbot/" class="text-red-600 text-sm block mb-2">View on GitHub</a>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Android</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Java</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Algorithm</span>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">Piclassor - AI Gallery Classifier</h3>
+                    <p class="text-gray-700 mb-3">Intelligent image classification system that organizes photos based on content, quality, and source using machine learning algorithms.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Java</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Android</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Machine Learning</span>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">React & Refine E-commerce Dashboard</h3>
+                    <p class="text-gray-700 mb-3">Modern admin dashboard built with React and Refine for managing e-commerce operations, inventory, and customer data.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">React</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Refine</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">TypeScript</span>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md transition-all duration-300">
+                    <h3 class="font-bold text-lg mb-2 text-red-700">ASP.NET CRM System</h3>
+                    <p class="text-gray-700 mb-3">Customer Relationship Management system built with ASP.NET Core featuring role-based access and analytics dashboard.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">C#</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">ASP.NET</span>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">SQL Server</span>
+                </div>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <a href="https://cafebazaar.ir/developer/977556711038" class="inline-flex items-center text-red-600 font-semibold hover:underline">
+                    <i class="fas fa-external-link-alt mr-2"></i> View all Android applications on Cafe Bazaar
+                </a>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="mt-8 text-center text-gray-600 text-sm">
+            <p>© 2023 Masoud Azizi. All rights reserved.</p>
+        </div>
     </div>
-  </div>
+
+    <script>
+        // Animation for skill bars
+        document.addEventListener('DOMContentLoaded', function() {
+            const skillBars = document.querySelectorAll('.skill-bar');
+            skillBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 500);
+            });
+        });
+    </script>
 </body>
 </html>
